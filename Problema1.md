@@ -33,4 +33,4 @@
 7.	Fin: Terminar el programa.
 
 ### Diagrama de bloques 
-[Diagrama de bloques](https://miro.com/app/board/uXjVKkvjbIo=/?share_link_id=265569110071)
+[Diagrama de bloques](https://miro.com/app/board/uXjVKkvjbIo=/?share_link_id=984604946339)
