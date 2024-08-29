@@ -31,3 +31,6 @@
 6.	Mostrar información de la reserva:
 - Mostrar nombre del pasajero, origen, destino, fecha, precio y asiento asignado.
 7.	Fin: Terminar el programa.
+
+### Diagrama de bloques 
+[Diagrama de bloques](https://miro.com/app/board/uXjVKkvjbIo=/?share_link_id=265569110071)
