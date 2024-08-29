@@ -24,3 +24,5 @@
 5.	Salida: Imprime el resultado final (si el satélite se desintegró o se estabilizó).
 6.	Fin: Termina el programa.
 
+### Diagrama de bloques 
+[Diagrama de bloques](https://miro.com/app/board/uXjVKku5Pm4=/?share_link_id=746825607701)
