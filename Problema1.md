@@ -3,19 +3,19 @@
 ## Análisis del problema 
 
 ### Constantes:
--Ciudades: Medellín, Bogotá, Cartagena (son fijas y no cambian durante la ejecución del programa).
--Distancias entre ciudades: Estos valores son fijos y se utilizan para calcular los precios.
--Precios base: Los precios para vuelos cortos y largos, así como los precios para días de semana y fines de semana, son constantes.
--Tipos de asientos: Pasillo, ventana, sin preferencia.
+- Ciudades: Medellín, Bogotá, Cartagena (son fijas y no cambian durante la ejecución del programa).
+- Distancias entre ciudades: Estos valores son fijos y se utilizan para calcular los precios.
+- Precios base: Los precios para vuelos cortos y largos, así como los precios para días de semana y fines de semana, son constantes.
+- Tipos de asientos: Pasillo, ventana, sin preferencia.
 
 ### Variables:
--Nombre del usuario: Cambia según el usuario.
--Origen y destino: Seleccionados por el usuario.
--Fecha de vuelo: Día de la semana y día del mes, ingresados por el usuario.
--Precio del vuelo: Calculado según la distancia y el día de la semana.
--Número de asiento: Asignado aleatoriamente.
+- Nombre del usuario: Cambia según el usuario.
+- Origen y destino: Seleccionados por el usuario.
+- Fecha de vuelo: Día de la semana y día del mes, ingresados por el usuario.
+- Precio del vuelo: Calculado según la distancia y el día de la semana.
+- Número de asiento: Asignado aleatoriamente.
 
-#### Para construir diagrama de bloques
+### Para construir diagrama de bloques
 1.	Inicio: Comienza el programa.
 2.	Ingreso de datos del usuario: Solicita nombre, apellido y título.
 3.	Selección de vuelos:
