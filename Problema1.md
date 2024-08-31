@@ -86,19 +86,19 @@ INICIO
 
      Fin si
 
-  SI NO
+  Si no
 
-     SI día_semana es "lunes" O "martes" O "miércoles" O "jueves" ENTONCES 
+     Si día_semana es "lunes" O "martes" O "miércoles" O "jueves" entonces 
 
          precio = precios_bajo_largo 
 
-     SI NO 
+     Si no
 
          precio = precios_alto_largo 
 
-     FIN SI
+     Fin si
 
-  FIN SI
+  Fin si
 
    // Asignar asiento
 
@@ -106,22 +106,22 @@ INICIO
 
    Generar número_asiento aleatorio entre 1 y 29
 
-   SI preferencia_asiento es "pasillo" ENTONCES 
+   Si preferencia_asiento es "pasillo" entonces 
 
       asiento = número_asiento + "C" 
 
-  SI NO SI preferencia_asiento es "ventana" ENTONCES
+  Si no si preferencia_asiento es "ventana" entonces
 
       asiento = número_asiento + "A" 
 
-  SI NO 
+  Si no
 
       asiento = número_asiento + "B"
 
-  FIN SI
+  Fin si
 
    // Mostrar confirmación
 
    Mostrar nombre, origen, destino, fecha, precio, asiento
 
- FIN
+ Fin 
