@@ -75,9 +75,7 @@ INICIO
   // Calcular precio 
 
   SI distancia[origen][destino] < 400 ENTONCES 
-
      SI día_semana es "lunes" O "martes" O "miércoles" O "jueves" ENTONCES 
-
             precio = precios_bajo 
 
      SI NO 
@@ -121,7 +119,7 @@ INICIO
   FIN SI
 
    // Mostrar confirmación
-   
+
    Mostrar nombre, origen, destino, fecha, precio, asiento
 
  FIN
