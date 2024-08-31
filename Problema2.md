@@ -26,3 +26,53 @@
 
 ### Diagrama de bloques 
 [Diagrama de bloques](https://miro.com/app/board/uXjVKku5Pm4=/?share_link_id=746825607701)
+
+### Pseudocódigo
+Inicio
+
+  // Pedir al usuario ingresar datos
+
+  Ingresar altitud_inicial
+
+  Ingresar coeficiente_arrastre_inicial 
+
+  Ingresar  altitud_minima_seguridad 
+
+  // Iniciar variables
+
+  altitud_actual <=altitud_inicial
+
+  coeficiente_arrastre <= coeficiente_arrastre_inicial 
+
+  num_orbitas <=0
+
+  // Definir bucle 
+
+  Mientras altitud_actual > altitud_minima_seguridad calcular
+
+    perdida_altitud = coeficiente_arrastre * altitud_actual
+
+    altitud_actual = altitud_actual - perdida_altitud 
+
+    coeficiente_arrastre += coeficiente_arrastre + 0.0001
+
+    num_orbitas = num_orbitas + 1 
+
+  Fin mientras
+
+  // Mostrar resultado 
+
+  Si altitud_actual <= altitud_minima_seguridad entonces
+  
+     Escribir "El satélite ha reingresado en la atmósfera." 
+
+  Si no
+
+     Escribir "El satélite se ha estabilizado en una órbita baja." 
+
+  Fin si
+
+  Escribir "Número de órbitas completadas:", num_orbitas 
+  
+Fin
+
