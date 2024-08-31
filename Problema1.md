@@ -37,7 +37,7 @@
 
 ### Pseudocódigo
 
-INICIO 
+Inicio
 
   // Pedir al usuario que ingrese datos 
 
