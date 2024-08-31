@@ -38,7 +38,9 @@
 ### Pseudocódigo
 
 INICIO 
+
   // Pedir al usuario que ingrese datos 
+
   Ingresar título (Sr, Sra), nombre, apellido 
   Mostrar saludo personalizado
 
