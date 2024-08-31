@@ -74,15 +74,17 @@ INICIO
 
   // Calcular precio 
 
-  SI distancia[origen][destino] < 400 ENTONCES 
-     SI día_semana es "lunes" O "martes" O "miércoles" O "jueves" ENTONCES 
+  Si distancia[origen][destino] < 400 entonces 
+
+     Si día_semana es "lunes" O "martes" O "miércoles" O "jueves" entonces
+
             precio = precios_bajo 
 
-     SI NO 
+     Si no 
 
             precio = precios_alto 
 
-     FIN SI
+     Fin si
 
   SI NO
 
