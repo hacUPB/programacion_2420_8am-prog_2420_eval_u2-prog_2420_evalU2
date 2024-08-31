@@ -42,14 +42,22 @@ INICIO
   // Pedir al usuario que ingrese datos 
 
   Ingresar título (Sr, Sra), nombre, apellido 
+
   Mostrar saludo personalizado
 
   // Definir ciudades y distancias
+
   Definir ciudades = ["Medellín", "Bogotá", "Cartagena"] 
+
   Definir distancias = [[0, 240, 461], [240, 0, 657], [461, 657, 0]] 
+
+  
   Definir precios_bajo = 79900  
+
   Definir precios_alto = 119900
+
   Definir precios_bajo_largo = 156900 
+  
   Definir precios_alto_largo = 213000
 
   // Pedir usuario ingrese origen y destino 
