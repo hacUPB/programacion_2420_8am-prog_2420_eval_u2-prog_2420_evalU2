@@ -74,7 +74,7 @@ INICIO
 
   // Calcular precio 
 
-  Si distancia[origen][destino] < 400 entonces 
+  Si distancia(origen)(destino) < 400 entonces 
 
      Si día_semana es "lunes" O "martes" O "miércoles" O "jueves" entonces
 
@@ -100,23 +100,23 @@ INICIO
 
   Fin si
 
-   // Asignar asiento
+   // Asignar silla
 
-   Ingresar preferencia_asiento 
+   Ingresar preferencia_silla 
 
-   Generar número_asiento aleatorio entre 1 y 29
+   Generar número_silla aleatorio entre 1 y 29
 
-   Si preferencia_asiento es "pasillo" entonces 
+   Si preferencia_silla es "pasillo" entonces 
 
-      asiento = número_asiento + "C" 
+      silla = número_silla + "C" 
 
-  Si no si preferencia_asiento es "ventana" entonces
+  Si no si preferencia_silla es "ventana" entonces
 
-      asiento = número_asiento + "A" 
+      silla = número_silla + "A" 
 
   Si no
 
-      asiento = número_asiento + "B"
+      silla = número_silla + "B"
 
   Fin si
 
