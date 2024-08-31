@@ -50,7 +50,7 @@ INICIO
   Definir ciudades = ["Medellín", "Bogotá", "Cartagena"] 
 
   Definir distancias = [[0, 240, 461], [240, 0, 657], [461, 657, 0]] 
-  
+
   Definir precios_bajo = 79900  
 
   Definir precios_alto = 119900
